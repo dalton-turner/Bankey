@@ -122,6 +122,6 @@ extension OnboardingContainerViewController: UIPageViewControllerDataSource {
 // MARK: Actions
 extension OnboardingContainerViewController {
     @objc func closeTapped(_ sender: UIButton) {
-        // TODO
+        delegate?.didFinishOnboarding()
     }
 }
