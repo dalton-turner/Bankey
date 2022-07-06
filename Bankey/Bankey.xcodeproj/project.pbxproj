@@ -12,6 +12,8 @@
 		5C2A647E286CF75C0006471B /* DummyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2A647D286CF75C0006471B /* DummyViewController.swift */; };
 		5C2A6481286E2E180006471B /* LocalState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2A6480286E2E180006471B /* LocalState.swift */; };
 		5C5F1BDF2863B3ED0049AED3 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5F1BDE2863B3ED0049AED3 /* LoginView.swift */; };
+		5CCDA06428764AA500B61131 /* UIViewController+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCDA06328764AA500B61131 /* UIViewController+Utils.swift */; };
+		5CCDA06628764C0B00B61131 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCDA06528764C0B00B61131 /* MainViewController.swift */; };
 		5CDD4D50286379B70081C79E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDD4D4F286379B70081C79E /* AppDelegate.swift */; };
 		5CDD4D54286379B70081C79E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDD4D53286379B70081C79E /* LoginViewController.swift */; };
 		5CDD4D59286379B80081C79E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CDD4D58286379B80081C79E /* Assets.xcassets */; };
@@ -24,6 +26,8 @@
 		5C2A647D286CF75C0006471B /* DummyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyViewController.swift; sourceTree = "<group>"; };
 		5C2A6480286E2E180006471B /* LocalState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalState.swift; sourceTree = "<group>"; };
 		5C5F1BDE2863B3ED0049AED3 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		5CCDA06328764AA500B61131 /* UIViewController+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Utils.swift"; sourceTree = "<group>"; };
+		5CCDA06528764C0B00B61131 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		5CDD4D4C286379B70081C79E /* Bankey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bankey.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CDD4D4F286379B70081C79E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5CDD4D53286379B70081C79E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				5C2A6480286E2E180006471B /* LocalState.swift */,
+				5CCDA06328764AA500B61131 /* UIViewController+Utils.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -99,11 +104,12 @@
 		5CDD4D4E286379B70081C79E /* Bankey */ = {
 			isa = PBXGroup;
 			children = (
-				5C2A647F286E2E0B0006471B /* Utils */,
-				5C2A641C286624230006471B /* Onboarding */,
-				5C5F1BDC2863B3110049AED3 /* Files */,
-				5C5F1BDD2863B3B10049AED3 /* Login */,
 				5CDD4D4F286379B70081C79E /* AppDelegate.swift */,
+				5C5F1BDD2863B3B10049AED3 /* Login */,
+				5C2A641C286624230006471B /* Onboarding */,
+				5C2A647F286E2E0B0006471B /* Utils */,
+				5C5F1BDC2863B3110049AED3 /* Files */,
+				5CCDA06528764C0B00B61131 /* MainViewController.swift */,
 			);
 			path = Bankey;
 			sourceTree = "<group>";
@@ -178,11 +184,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CCDA06428764AA500B61131 /* UIViewController+Utils.swift in Sources */,
 				5C5F1BDF2863B3ED0049AED3 /* LoginView.swift in Sources */,
 				5C2A6481286E2E180006471B /* LocalState.swift in Sources */,
 				5C2A647E286CF75C0006471B /* DummyViewController.swift in Sources */,
 				5CDD4D54286379B70081C79E /* LoginViewController.swift in Sources */,
 				5C2A646E286A5FB20006471B /* OnboardingViewController.swift in Sources */,
+				5CCDA06628764C0B00B61131 /* MainViewController.swift in Sources */,
 				5CDD4D50286379B70081C79E /* AppDelegate.swift in Sources */,
 				5C2A641E2866243F0006471B /* OnboardingContainerViewController.swift in Sources */,
 			);
